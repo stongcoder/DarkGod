@@ -1,0 +1,16 @@
+一.登陆场景
+1.设置环境光，镜头
+2.lighting窗口控制间接光照，通过调节灯光模式与lighting配合
+    https://docs.unity3d.com/Manual/LightModes.html
+    贴图烘焙只针对静态物体进行
+3.UI适配：不同分辨率等比缩放时可通过调节Canvas的ScaleFactor直接调节，或canvas选择scale with screensize
+二.代码框架
+1.代码规范
+    A.unity->Editor->Data->Resources->ScriptTemplates,配置代码生成模版
+    B.配置番茄插件
+2.通过自行调用各初始化方法而不用awake,start从而控制初始化顺序
+3.在自己希望日后完善的地方加入注释 //ToDo,防止忘记
+4.单例模式及单例模式泛型类的实现原理
+5.多线程及线程锁
+6.excel转xml
+7.Debug.Log可以连接物体

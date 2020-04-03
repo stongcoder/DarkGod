@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameServer", "GameServer\GameServer.csproj", "{B7DA88E6-C35C-40AF-9CC9-9A56456EFFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEProtocol", "PEProtocol\PEProtocol.csproj", "{FB81DFEE-4E4E-4C91-8E9A-EBC472493BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7DA88E6-C35C-40AF-9CC9-9A56456EFFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DA88E6-C35C-40AF-9CC9-9A56456EFFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DA88E6-C35C-40AF-9CC9-9A56456EFFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DA88E6-C35C-40AF-9CC9-9A56456EFFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB81DFEE-4E4E-4C91-8E9A-EBC472493BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB81DFEE-4E4E-4C91-8E9A-EBC472493BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB81DFEE-4E4E-4C91-8E9A-EBC472493BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB81DFEE-4E4E-4C91-8E9A-EBC472493BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC3A714D-A83B-4320-933F-010D65E6F798}
+	EndGlobalSection
+EndGlobal
